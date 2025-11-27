@@ -1,3 +1,7 @@
+# 시청 로그 편집규칙 데모 코드
+# 실제 프로젝트 코드를 기반으로 하되, 기밀 편집규칙 일부는 제거/단순화
+# 익명화/샘플 데이터(data.xlsx)를 사용
+
 library(readxl)
 library(dplyr)
 library(lubridate)
@@ -299,3 +303,4 @@ get_ganttchart <- function(lv1, lv2, lv3, new, id, start, end, set.title=FALSE){
 get_ganttchart(lv1 = lv1_df, lv2 = lv2_df, lv3 = lv3_df, new = new_df, 
                id = id_list[1], start = "2024-06-01 00:00:00", end = "2024-06-10 23:59:59", 
                set.title = TRUE)
+
