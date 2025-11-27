@@ -3,6 +3,7 @@ library(dplyr)
 library(lubridate)
 
 # 파일 불러오기
+setwd("C:/Users/yjlee/Downloads")
 lv1 = as.data.frame(read_excel("data.xlsx"))
 
 # lv1 시작-종료 형태의 시청로그 불러오기
